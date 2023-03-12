@@ -1,0 +1,489 @@
+<script>alert("Внимание сайт не адаптирован под телефоны")</script>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="form__group field">
+            <input type="input" class="form__field" placeholder="Name" name="name" id="name" autofocus/>
+            <label for="name" class="form__label">Поиск курса</label>
+            <a href="https://boosty.to/waylite/single-payment/donation/send/author" target="_blank" class="button1">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                ПОЖЕРТВОВАТЬ
+            </a>
+        </div>
+        <div class="courses_container">
+            <!-- <a class="course" name="английский язык" fi="иностранный язык йцу">английский язык</a>
+            <a class="course" name="китайский язык" fi="иностранный язык йцу">китайский язык</a>
+            <a class="course" name="японский язык" fi="иностранный язык йцу">японский язык</a>
+            <a class="course" name="корейский язык" fi="иностранный язык йцу">корейский язык</a>
+            <a class="course" name="python">python</a>
+            <a class="course" name="c++">c++</a>
+            <a class="course" name="c#">c#</a>
+            <a class="course" name="java">java</a>
+            <a class="course" name="монтаж">монтаж</a> -->
+
+            <a class="card course" name="английский язык" href="#!">
+                <div class="front" style="background-image: url(https://source.unsplash.com/200x300);">
+                    <p>английский язык</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p><img src="pc.png" alt=""> <img src="phone.png" alt=""> <img src="web.png" alt=""></p>
+                        <p>321 уроков</p>
+                    </div>
+                </div>
+            </a>
+            <a class="card course" name="китайский язык" href="#!">
+                <div class="front" style="background-image: url(https://source.unsplash.com/200x301);">
+                    <p>китайский язык</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p><img src="pc.png" alt=""> <img src="web.png" alt=""></p>
+                        <p>512 уроков</p>
+                    </div>
+                </div>
+            </a>
+            <a class="card course" name="японский язык" href="#!">
+                <div class="front" style="background-image: url(https://source.unsplash.com/200x302);">
+                    <p>японский язык</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p><img src="pc.png" alt=""> <img src="phone.png" alt=""> <img src="web.png" alt=""></p>
+                        <p>297 уроков</p>
+                    </div>
+                </div>
+            </a>
+            <a class="card course" name="корейский язык" href="#!">
+                <div class="front" style="background-image: url(https://source.unsplash.com/200x303);">
+                    <p>корейский язык</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p><img src="pc.png" alt=""> <img src="phone.png" alt=""> <img src="web.png" alt=""></p>
+                        <p>245 уроков</p>
+                    </div>
+                </div>
+            </a>
+            <a class="card course" name="python" href="#!">
+                <div class="front" style="background-image: url(https://source.unsplash.com/200x304);">
+                    <p>python</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p><img src="pc.png" alt=""> <img src="phone.png" alt=""> <img src="web.png" alt=""></p>
+                        <p>50 уроков</p>
+                    </div>
+                </div>
+            </a>
+            <a class="card course" name="c++" href="#!">
+                <div class="front" style="background-image: url(https://source.unsplash.com/200x305);">
+                    <p>c++</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p><img src="pc.png" alt=""> <img src="web.png" alt=""></p>
+                        <p>117 уроков</p>
+                    </div>
+                </div>
+            </a>
+            <a class="card course" name="c#" href="#!">
+                <div class="front" style="background-image: url(https://source.unsplash.com/200x306);">
+                    <p>c#</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p><img src="pc.png" alt=""> <img src="web.png" alt=""></p>
+                        <p>67 уроков</p>
+                    </div>
+                </div>
+            </a>
+            <a class="card course" name="java" href="#!">
+                <div class="front" style="background-image: url(https://source.unsplash.com/200x307);">
+                    <p>java</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p><img src="pc.png" alt=""> <img src="web.png" alt=""></p>
+                        <p>123 уроков</p>
+                    </div>
+                </div>
+            </a>
+            <a class="card course" name="монтаж" href="#!">
+                <div class="front" style="background-image: url(https://source.unsplash.com/200x308);">
+                    <p>монтаж</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p><img src="pc.png" alt=""> <img src="phone.png" alt=""> <img src="web.png" alt=""></p>
+                        <p>48 уроков</p>
+                    </div>
+                </div>
+            </a>
+            <a class="card course" name="огэ по ифнорматике" href="#!">
+                <div class="front" style="background-image: url(https://source.unsplash.com/200x309);">
+                    <p>ОГЭ по ифнорматике</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p><img src="pc.png" alt=""></p>
+                        <p>15 уроков</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <a href="#" class="button1">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            ?
+        </a>
+
+        <script>
+            function ser() {
+                console.log(this.value);
+                a = document.querySelectorAll(`[name*="${this.value.toLowerCase()}"], [fi*="${this.value}"]`);
+
+                if (this.value != "") {
+                    document.querySelectorAll(".course").forEach((a1, b1, c1) => {
+                        a1.style.display = "none";
+                    });
+                } else {
+                    document.querySelectorAll(".course").forEach((a1, b1, c1) => {
+                        a1.style.display = "";
+                    });
+                }
+
+                a.forEach((a1, b1, c1) => {
+                    a1.style.display = "";
+                });
+            }
+
+            document.querySelector(".form__field").addEventListener("input", ser);
+        </script>
+
+        <style>
+            .card {
+                color: inherit;
+                cursor: pointer;
+                width: 200px;
+                height: 300px;
+                position: relative;
+            }
+
+            .front,
+            .back {
+                width: 200px;
+                height: 300px;
+                display: flex;
+                border-radius: 6px;
+                background-position: center;
+                background-size: cover;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                transform-style: preserve-3d;
+                transition: ease-in-out 0.4s;
+            }
+            .front {
+                background-size: cover;
+
+                font-size: 1.618rem;
+                font-weight: 600;
+                color: #fff;
+                overflow: hidden;
+                font-family: Poppins, sans-serif;
+            }
+            .front:before {
+                position: absolute;
+                display: block;
+                content: "";
+
+                background: linear-gradient(135deg, #1a9be6, #1a57e6);
+                opacity: 0.25;
+                z-index: -1;
+            }
+            .card:hover .front {
+                transform: rotateY(180deg);
+            }
+            .card:nth-child(even):hover .front {
+                transform: rotateY(-180deg);
+            }
+            .back {
+                background: #47dbcf;
+                transform: rotateY(-180deg);
+            }
+            .back .button2 {
+                background: linear-gradient(135deg, #1a9be6, #1a57e6);
+            }
+            .back .button2:before {
+                background-color: rgba(26, 87, 230, 0.25);
+            }
+            .card:hover .back {
+                transform: rotateY(0deg);
+            }
+            .card:nth-child(even) .back {
+                transform: rotateY(180deg);
+            }
+            .card:nth-child(even) .back .button1 {
+                background: linear-gradient(135deg, #e61a80, #e61a3c);
+            }
+            .card:nth-child(even) .back .button1:before {
+                background-color: rgba(230, 26, 60, 0.25);
+            }
+            .card:nth-child(even):hover .back {
+                transform: rotateY(0deg);
+            }
+            .button2 {
+                cursor: pointer;
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                font-weight: bold;
+                color: #fff;
+
+                border-radius: 100px;
+                font: inherit;
+                border: none;
+                position: relative;
+                transform-style: preserve-3d;
+                transition: 300ms ease;
+            }
+            .button2:before {
+                transition: 300ms ease;
+                position: absolute;
+                display: block;
+                content: "";
+
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+
+                border-radius: 100px;
+            }
+            .button2:hover {
+                transform: translateZ(55px);
+            }
+            .button2:hover:before {
+                transform: translateZ(-55px);
+            }
+            .button2:active {
+                transform: translateZ(20px);
+            }
+            .button2:active:before {
+            }
+        </style>
+
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+            a.button1 {
+                position: relative;
+                display: inline-block;
+                padding: 25px 30px;
+                margin: 40px 0;
+                color: #47dbcf;
+                text-decoration: none;
+                text-transform: uppercase;
+                transition: 0.5s;
+                letter-spacing: 4px;
+                overflow: hidden;
+            }
+            a.button1:hover {
+                background: #47dbcf;
+                color: #050801;
+                box-shadow: 0 0 5px #47dbcf, 0 0 25px #47dbcf, 0 0 50px #47dbcf, 0 0 200px #47dbcf;
+                -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+            }
+
+            a.button1 span {
+                position: absolute;
+                display: block;
+            }
+            a.button1 span:nth-child(1) {
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background: linear-gradient(90deg, transparent, #47dbcf);
+                animation: animate1 1s linear infinite;
+            }
+            @keyframes animate1 {
+                0% {
+                    left: -100%;
+                }
+                50%,
+                100% {
+                    left: 100%;
+                }
+            }
+            a.button1 span:nth-child(2) {
+                top: -100%;
+                right: 0;
+                width: 2px;
+                height: 100%;
+                background: linear-gradient(180deg, transparent, #47dbcf);
+                animation: animate2 1s linear infinite;
+                animation-delay: 0.25s;
+            }
+            @keyframes animate2 {
+                0% {
+                    top: -100%;
+                }
+                50%,
+                100% {
+                    top: 100%;
+                }
+            }
+            a.button1 span:nth-child(3) {
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 2px;
+                background: linear-gradient(270deg, transparent, #47dbcf);
+                animation: animate3 1s linear infinite;
+                animation-delay: 0.5s;
+            }
+            @keyframes animate3 {
+                0% {
+                    right: -100%;
+                }
+                50%,
+                100% {
+                    right: 100%;
+                }
+            }
+
+            a.button1 span:nth-child(4) {
+                bottom: -100%;
+                left: 0;
+                width: 2px;
+                height: 100%;
+                background: linear-gradient(360deg, transparent, #47dbcf);
+                animation: animate4 1s linear infinite;
+                animation-delay: 0.75s;
+            }
+            @keyframes animate4 {
+                0% {
+                    bottom: -100%;
+                }
+                50%,
+                100% {
+                    bottom: 100%;
+                }
+            }
+        </style>
+
+        <style>
+            .course {
+                background-color: #050801;
+                margin: 10px;
+                border-radius: 6px;
+
+                width: 200px;
+                height: 300px;
+            }
+
+            .front p {
+                background-color: #000000aa;
+                width: 100%;
+                /* color: #47dbcf; */
+                backdrop-filter: blur(2px);
+                text-transform: uppercase;
+            }
+
+            .courses_container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 50%;
+
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                background-color: #050801;
+            }
+
+            .form__group {
+                position: relative;
+                padding: 15px 0 0;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 50%;
+            }
+            .form__field {
+                font-family: inherit;
+                width: 100%;
+                border: 0;
+                border-bottom: 2px solid #9b9b9b;
+                outline: 0;
+                font-size: 1.3rem;
+                color: #fff;
+                padding: 7px 0;
+                background: transparent;
+                transition: border-color 0.2s;
+            }
+            .form__field::placeholder {
+                color: transparent;
+            }
+            .form__field:placeholder-shown ~ .form__label {
+                font-size: 1.3rem;
+                cursor: text;
+                top: 20px;
+            }
+            .form__label {
+                position: absolute;
+                top: 0;
+                display: block;
+                transition: 0.2s;
+                font-size: 1rem;
+                color: #9b9b9b;
+                font-weight: 700;
+            }
+            .form__field:focus {
+                padding-bottom: 6px;
+                border-width: 3px;
+                border-image: linear-gradient(to right, #47dbcf, #38ef7d);
+                border-image-slice: 1;
+            }
+            .form__field:focus ~ .form__label {
+                position: absolute;
+                top: 0;
+                display: block;
+                transition: 0.2s;
+                font-size: 1rem;
+                color: #47dbcf;
+            }
+            .form__field:required,
+            .form__field:invalid {
+                box-shadow: none;
+            }
+            body {
+                font-family: "Poppins", sans-serif;
+                display: flex;
+                flex-direction: column;
+
+                font-weight: 700;
+                justify-content: start;
+                align-items: center;
+                text-align: center;
+                min-height: 100vh;
+                background-color: #222222;
+                background-color: #050801;
+            }
+        </style>
+    </body>
+</html>
